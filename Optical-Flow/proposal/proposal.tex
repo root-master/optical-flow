@@ -1,0 +1,68 @@
+   
+\documentclass[11pt]{article}
+\renewcommand{\baselinestretch}{1.05}
+\usepackage{amsmath,amsthm,verbatim,amssymb,amsfonts,amscd, graphicx}
+\usepackage[shortlabels]{enumitem}
+\usepackage{graphics}
+\usepackage{natbib}
+
+\topmargin-1.0cm
+\headheight0.0cm
+\headsep0.0cm
+\oddsidemargin0.0cm
+\textheight26.0cm
+\textwidth16.5cm
+\footskip1.0cm
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+\newtheorem{claim}{Claim}
+\newtheorem{proposition}{Proposition}
+\newtheorem*{surfacecor}{Corollary 1}
+\newtheorem{conjecture}{Conjecture} 
+\newtheorem{question}{Question} 
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\newtheorem*{algo}{Algorithm}
+
+\usepackage{xpatch}
+\xpatchcmd{\proof}{\itshape}{\normalfont\proofnameformat}{}{}
+\newcommand{\proofnameformat}{}
+\renewcommand{\proofnameformat}{\bfseries}
+
+
+\begin{document}
+\title{Computer Vision Final Project Proposal: \\ Optical Flow}
+\author{Jacob Rafati}
+\date{}
+\maketitle
+
+\section*{Abstract:}
+
+\emph{Optical flow} is the pattern of apparent motion of objects, surfaces, and edges in a visual scene caused by the relative motion between an observer and a scene. Optical flow characterizes the movement in the scene usually between adjacent frames in a video. It is useful for a range of applications including tracking, video classification, etc. 
+
+In this project, I will study Optical flow and then present this topic to the class. I will also cover the Lucas-Kanade method which is a widely used differential method for optical flow estimation developed by Bruce D. Lucas and Takeo Kanade \citep{Lucas:Kanade:1981}. It assumes that the flow is essentially constant in a local neighbourhood of the pixel under consideration, and solves the basic optical flow equations for all the pixels in that neighbourhood, by the least squares criterion. I will also show a demo on Lucas-Kanade method using \texttt{opencv} library (\texttt{Python} language). 
+
+There are several reasons that I am intested to pursue this topic:
+
+\begin{itemize}
+
+\item I can use optical flow algorithms for some simulations in my Ph.D. research. For my Ph.D. thesis, I am implementing a reinforcement learning algorithm to solve some of comlex ATARI 2600 games. The input to the reinforcement learning model is a video stream of a ATARI game. Generally the ATARI video games consists of the moving objects. I can use the optical flow to extract the information about the moving targets such as prediction of their next location in the pixel space.    
+
+\item Last semester, Professor Takeo Kanade gave a talk on our Campus. He mentioned an interesting story behind an algorithm that baceme known as \emph{Lucas-Kanade} method \citep{Lucas:Kanade:1981}. Bruce D. Lucas -- who was a Ph.D. student of Dr. Kanade in 1981 -- suggested to publish this algorithm but Dr. Kanade did not believe that this algorithm is worthy of submmission. But Bruce D. Lucas insisted on pulishing this algorithm and finally Dr. Kanade agreed to submit this paper \citep{Lucas:Kanade:1981}. The Lucas-Kanade algorithm \citep{Lucas:Kanade:1981} gained a huge attention among computer vision, image processing and robotics researchers (and received near 13,000 citations). Since I met Dr. Kanade and I know the story behind this algorithm, I have a personal interest to investigate more about optical flow and Lucas-Kanade method.    
+
+\item I read about optical flow and I found out that the mathematical model of optical flow has an interesting connection and similarity to the Harris corner detection method. I am curious to find out more about the mathematics of optical flow. 
+
+\end{itemize} 
+
+
+\bibliography{myref}
+\bibliographystyle{apalike}
+
+
+
+
+
+
+\end{document}

@@ -1,0 +1,26 @@
+\begin{thebibliography}{}
+
+\bibitem[Beauchemin and Barron, 1995]{Beauchemin:1995}
+Beauchemin, S.~S. and Barron, J.~L. (1995).
+\newblock The computation of optical flow.
+\newblock {\em ACM Comput. Surv.}, 27(3):433--466.
+
+\bibitem[Gibson, 1979]{Gibson:1979}
+Gibson, J.~J. (1979).
+\newblock {\em The Ecological Approach to Visual Perception}.
+\newblock Houghton Mifflin.
+
+\bibitem[Horn and Schunck, 1981]{Horn:Schunck:1981}
+Horn, B.~K. and Schunck, B.~G. (1981).
+\newblock Determining optical flow.
+\newblock {\em Artificial Intelligence}, 17(1):185 -- 203.
+
+\bibitem[Lucas and Kanade, 1981]{Lucas:Kanade:1981}
+Lucas, B.~D. and Kanade, T. (1981).
+\newblock An iterative image registration technique with an application to
+  stereo vision.
+\newblock In {\em Proceedings of the 7th International Joint Conference on
+  Artificial Intelligence - Volume 2}, IJCAI'81, pages 674--679, San Francisco,
+  CA, USA. Morgan Kaufmann Publishers Inc.
+
+\end{thebibliography}
