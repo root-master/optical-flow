@@ -16,54 +16,77 @@
 \gdef\HyperFirstAtBeginDocument#1{#1}
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyField@AuxAddToCoFields[2]{}
-\newlabel{sec:abstract}{{}{2}{Abstract}{section*.2}{}}
 \citation{Horn:Schunck:1981}
 \citation{Gibson:1979}
 \citation{Horn:Schunck:1981}
-\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{3}{section.1}}
-\newlabel{sec:introduction}{{1}{3}{Introduction}{section.1}{}}
 \citation{Horn:Schunck:1981}
-\citation{Beauchemin:1995,Horn:Schunck:1981}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{2}{section.1}}
+\newlabel{sec:introduction}{{1}{2}{Introduction}{section.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Optical Flow Methods}{2}{section.2}}
+\newlabel{sec:optical-flow}{{2}{2}{Optical Flow Methods}{section.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Optical flow field vs. Motion field}{2}{subsection.2.1}}
 \citation{Beauchemin:1995}
-\@writefile{toc}{\contentsline {section}{\numberline {2}Optical Flow Methods}{4}{section.2}}
-\newlabel{sec:optical-flow}{{2}{4}{Optical Flow Methods}{section.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Optical flow field vs. Motion field}{4}{subsection.2.1}}
+\citation{Beauchemin:1995,Horn:Schunck:1981}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \emph  {Motion Field} is 2D motion field representing the projection of the 3D motion of points in the scene onto the image plane.}}{3}{figure.1}}
+\newlabel{grf:motion-field}{{1}{3}{\emph {Motion Field} is 2D motion field representing the projection of the 3D motion of points in the scene onto the image plane}{figure.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Optical flow is 2D velocity field describing the apparent motion of image objects between two consecutive frames. (a): Frame at time $t$. The red object in $(x,y)$ moves towards right side of frame. (b): Frame at time $t+\Delta t$. The red object moved towards right side of the frame to $(x+\Delta x , y + \Delta y)$. The arrow is the optical flow vector between these two frames.}}{3}{figure.2}}
+\newlabel{grf:optical-flow-ball}{{2}{3}{Optical flow is 2D velocity field describing the apparent motion of image objects between two consecutive frames. (a): Frame at time $t$. The red object in $(x,y)$ moves towards right side of frame. (b): Frame at time $t+\Delta t$. The red object moved towards right side of the frame to $(x+\Delta x , y + \Delta y)$. The arrow is the optical flow vector between these two frames}{figure.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces A classical optical flow example (army and rubber whale). (a) Frame at time $t$. (b): Frame at time $t+\Delta t$. (c) Optical flow velocity vector field. (d) Optical flow color wheel: the colors represent the direction of flow and the saturation represent magnitude of optical flow velocity vector.}}{4}{figure.3}}
+\newlabel{grf:army-flow}{{3}{4}{A classical optical flow example (army and rubber whale). (a) Frame at time $t$. (b): Frame at time $t+\Delta t$. (c) Optical flow velocity vector field. (d) Optical flow color wheel: the colors represent the direction of flow and the saturation represent magnitude of optical flow velocity vector}{figure.3}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Optical flow constraint equation}{4}{subsection.2.2}}
 \newlabel{eq:intensity-cond}{{1}{4}{Optical flow constraint equation}{equation.2.1}{}}
 \newlabel{eq:intensity-taylor}{{2}{4}{Optical flow constraint equation}{equation.2.2}{}}
-\newlabel{eq:flow-diff}{{3}{4}{Optical flow constraint equation}{equation.2.3}{}}
-\newlabel{eq:normal-v}{{4}{4}{Optical flow constraint equation}{equation.2.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Summary of methods}{5}{subsection.2.3}}
-\citation{Horn:Schunck:1981}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Differential Methods}{6}{section.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}A Global Method: Horn-Schunck Algorithm}{6}{subsection.3.1}}
-\newlabel{sec:Horn-Schunck}{{3.1}{6}{A Global Method: Horn-Schunck Algorithm}{subsection.3.1}{}}
-\newlabel{eq:Horn-smoothness-constraint-gradient}{{5}{6}{The Smoothness Constraint}{equation.3.5}{}}
-\newlabel{eq:Horn-smoothness-constraint-Laplacian}{{6}{6}{The Smoothness Constraint}{equation.3.6}{}}
-\newlabel{eq:Horn:energy-fuctional-gradient}{{7}{6}{The Smoothness Constraint}{equation.3.7}{}}
-\newlabel{eq:Horn:energy-fuctional-laplacian}{{8}{6}{The Smoothness Constraint}{equation.3.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces (a) Barber pole illusion: a clolored pole spinning around the cylinder axis. (b) Motion field. (c) Optical flow field. (d) Lambertian (matte) sphere spinning around $z$ axis. (e) Motion field is not zero. (f) Optical flow field is zero. (g) Stationary Lambertian sphere. The light source is moving. (h) Motion field is zero. (i) Optical flow field is not zero. }}{5}{figure.4}}
+\newlabel{grf:motion-flow-vs-optical-flow}{{4}{5}{(a) Barber pole illusion: a clolored pole spinning around the cylinder axis. (b) Motion field. (c) Optical flow field. (d) Lambertian (matte) sphere spinning around $z$ axis. (e) Motion field is not zero. (f) Optical flow field is zero. (g) Stationary Lambertian sphere. The light source is moving. (h) Motion field is zero. (i) Optical flow field is not zero}{figure.4}{}}
+\newlabel{eq:flow-diff}{{3}{5}{Optical flow constraint equation}{equation.2.3}{}}
 \citation{Beauchemin:1995}
-\newlabel{eq:Horn:optimization}{{9}{7}{The Smoothness Constraint}{equation.3.9}{}}
-\newlabel{eq:Lagrangian}{{10}{7}{The Smoothness Constraint}{equation.3.10b}{}}
-\newlabel{eq:Horn:L}{{11}{7}{The Smoothness Constraint}{equation.3.11}{}}
-\newlabel{eq:Horn:Lagrangian}{{12}{7}{The Smoothness Constraint}{equation.3.12b}{}}
-\newlabel{eq:laplace-difference-approximation}{{13}{7}{The Smoothness Constraint}{equation.3.13b}{}}
-\newlabel{eq:Horn:lagrange-difference-approximation}{{14}{7}{The Smoothness Constraint}{equation.3.14}{}}
+\citation{Beauchemin:1995,Horn:Schunck:1981}
 \citation{Lucas:Kanade:1981}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}A Local Method: Lucas-Kanade Algorithm}{8}{subsection.3.2}}
-\newlabel{sec:Lucas-Kanade}{{3.2}{8}{A Local Method: Lucas-Kanade Algorithm}{subsection.3.2}{}}
-\newlabel{eq:lucas:canade:optim}{{16}{8}{A Local Method: Lucas-Kanade Algorithm}{equation.3.16}{}}
-\newlabel{eq:lucal-kanade-matrix}{{17}{8}{A Local Method: Lucas-Kanade Algorithm}{equation.3.17}{}}
-\newlabel{eq:lucas-kanade-leastsqaure}{{19}{8}{A Local Method: Lucas-Kanade Algorithm}{equation.3.19}{}}
-\newlabel{eq:lucas-kanade-compact-solution}{{20}{9}{A Local Method: Lucas-Kanade Algorithm}{equation.3.20}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Supervised Learning with Convolutional Networks}{11}{section.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion}{12}{section.5}}
-\newlabel{sec:discussion}{{5}{12}{Discussion}{section.5}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{13}{section.6}}
-\newlabel{sec:conclusion}{{6}{13}{Conclusion}{section.6}{}}
+\citation{Beauchemin:1995}
+\citation{Beauchemin:1995}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces \emph  {Optical flow constraint equation} is ill-posed since it is not sufficient to compute both components of $\mathbf  {v}$. Only $\mathbf  {v_{\perp }}$ the motion component in the direction of the local gradient of the image intensity function can be estimated.}}{6}{figure.5}}
+\newlabel{grf:ill-posed}{{5}{6}{\emph {Optical flow constraint equation} is ill-posed since it is not sufficient to compute both components of $\mathbf {v}$. Only $\mathbf {v_{\perp }}$ the motion component in the direction of the local gradient of the image intensity function can be estimated}{figure.5}{}}
+\newlabel{eq:normal-v}{{4}{6}{Optical flow constraint equation}{equation.2.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Summary of methods}{6}{subsection.2.3}}
+\newlabel{sub:summary}{{2.3}{6}{Summary of methods}{subsection.2.3}{}}
+\citation{Beauchemin:1995}
+\citation{Beauchemin:1995}
+\citation{Beauchemin:1995}
+\citation{Beauchemin:1995}
+\citation{FlowNet:2015}
+\citation{Horn:Schunck:1981}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Differential Methods}{7}{section.3}}
+\newlabel{sec:diff-methods}{{3}{7}{Differential Methods}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}A Global Method: Horn-Schunck Algorithm}{7}{subsection.3.1}}
+\newlabel{sec:Horn-Schunck}{{3.1}{7}{A Global Method: Horn-Schunck Algorithm}{subsection.3.1}{}}
+\newlabel{eq:Horn-smoothness-constraint-gradient}{{5}{8}{The Smoothness Constraint}{equation.3.5}{}}
+\newlabel{eq:Horn-smoothness-constraint-Laplacian}{{6}{8}{The Smoothness Constraint}{equation.3.6}{}}
+\newlabel{eq:Horn:energy-fuctional-gradient}{{7}{8}{The Smoothness Constraint}{equation.3.7}{}}
+\newlabel{eq:Horn:energy-fuctional-laplacian}{{8}{8}{The Smoothness Constraint}{equation.3.8}{}}
+\newlabel{eq:Horn:optimization}{{9}{8}{The Smoothness Constraint}{equation.3.9}{}}
+\newlabel{eq:Lagrangian}{{10}{8}{The Smoothness Constraint}{equation.3.10b}{}}
+\newlabel{eq:Horn:L}{{11}{8}{The Smoothness Constraint}{equation.3.11}{}}
+\citation{Horn:Schunck:1981}
+\citation{Beauchemin:1995}
+\citation{Lucas:Kanade:1981}
+\newlabel{eq:Horn:Lagrangian}{{12}{9}{The Smoothness Constraint}{equation.3.12b}{}}
+\newlabel{eq:laplace-difference-approximation}{{13}{9}{The Smoothness Constraint}{equation.3.13b}{}}
+\newlabel{eq:Horn:lagrange-difference-approximation}{{15}{9}{The Smoothness Constraint}{equation.3.15}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}A Local Method: Lucas-Kanade Algorithm}{10}{subsection.3.2}}
+\newlabel{sec:Lucas-Kanade}{{3.2}{10}{A Local Method: Lucas-Kanade Algorithm}{subsection.3.2}{}}
+\newlabel{eq:lucas:canade:optim}{{18}{10}{A Local Method: Lucas-Kanade Algorithm}{equation.3.18}{}}
+\newlabel{eq:lucal-kanade-matrix}{{19}{10}{A Local Method: Lucas-Kanade Algorithm}{equation.3.19}{}}
+\newlabel{eq:lucas-kanade-leastsqaure}{{21}{10}{A Local Method: Lucas-Kanade Algorithm}{equation.3.21}{}}
+\newlabel{eq:lucas-kanade-compact-solution}{{22}{10}{A Local Method: Lucas-Kanade Algorithm}{equation.3.22}{}}
+\citation{Shi-Tomasi:1994}
+\citation{Horn:Schunck:1981,Beauchemin:1995}
+\citation{Beauchemin:1995,Lucas:Kanade:1981}
 \bibdata{opticalflow-bib}
 \bibcite{Beauchemin:1995}{{1}{1995}{{Beauchemin and Barron}}{{}}}
-\bibcite{Gibson:1979}{{2}{1979}{{Gibson}}{{}}}
-\bibcite{Horn:Schunck:1981}{{3}{1981}{{Horn and Schunck}}{{}}}
-\bibcite{Lucas:Kanade:1981}{{4}{1981}{{Lucas and Kanade}}{{}}}
+\bibcite{FlowNet:2015}{{2}{2015}{{Dosovitskiy et~al.}}{{}}}
+\bibcite{Gibson:1979}{{3}{1979}{{Gibson}}{{}}}
+\bibcite{Horn:Schunck:1981}{{4}{1981}{{Horn and Schunck}}{{}}}
+\bibcite{Lucas:Kanade:1981}{{5}{1981}{{Lucas and Kanade}}{{}}}
+\bibcite{Shi-Tomasi:1994}{{6}{1994}{{Shi and Tomasi}}{{}}}
 \bibstyle{apalike}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Conclusion}{12}{section.4}}

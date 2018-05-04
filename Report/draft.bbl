@@ -5,6 +5,13 @@ Beauchemin, S.~S. and Barron, J.~L. (1995).
 \newblock The computation of optical flow.
 \newblock {\em ACM Comput. Surv.}, 27(3):433--466.
 
+\bibitem[Dosovitskiy et~al., 2015]{FlowNet:2015}
+Dosovitskiy, A., Fischer, P., Ilg, E., Häusser, P., Hazirbas, C., Golkov, V.,
+  v.~d. Smagt, P., Cremers, D., and Brox, T. (2015).
+\newblock Flownet: Learning optical flow with convolutional networks.
+\newblock In {\em 2015 IEEE International Conference on Computer Vision
+  (ICCV)}, pages 2758--2766.
+
 \bibitem[Gibson, 1979]{Gibson:1979}
 Gibson, J.~J. (1979).
 \newblock {\em The Ecological Approach to Visual Perception}.
@@ -22,5 +29,11 @@ Lucas, B.~D. and Kanade, T. (1981).
 \newblock In {\em Proceedings of the 7th International Joint Conference on
   Artificial Intelligence - Volume 2}, IJCAI'81, pages 674--679, San Francisco,
   CA, USA. Morgan Kaufmann Publishers Inc.
+
+\bibitem[Shi and Tomasi, 1994]{Shi-Tomasi:1994}
+Shi, J. and Tomasi, C. (1994).
+\newblock Good features to track.
+\newblock In {\em 1994 Proceedings of IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 593--600.
 
 \end{thebibliography}

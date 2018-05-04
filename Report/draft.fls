@@ -6,10 +6,10 @@ INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/draft.tex
 OUTPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/draft.log
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/size12.clo
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/size12.clo
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
@@ -123,30 +123,6 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msa.cfg
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msa.cfg
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msb.cfg
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msb.cfg
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/draft.toc
-INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/draft.toc
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -158,34 +134,108 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msa.cfg
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msa.cfg
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msb.cfg
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msb.cfg
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-OUTPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/draft.toc
-INPUT /usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/draft.toc
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/draft.toc
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+OUTPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/draft.toc
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/motion-field.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/motion-field.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/motion-field.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/optical-flow-ball-1.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/optical-flow-ball-1.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/optical-flow-ball-1.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/optical-flow-ball-2.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/optical-flow-ball-2.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/optical-flow-ball-2.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/army1.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/army1.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/army1.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/army2.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/army2.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/army2.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/army-flow.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/army-flow.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/army-flow.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/colorwheel.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/colorwheel.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/colorwheel.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/barber-pole.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/barber-pole.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/barber-pole.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/barber-pole-motion-field.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/barber-pole-motion-field.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/barber-pole-motion-field.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/barber-pole-optical-flow.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/barber-pole-optical-flow.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/barber-pole-optical-flow.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/lambertian-sphere.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/lambertian-sphere.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/lambertian-sphere.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/lambertian-sphere-motion-field.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/lambertian-sphere-motion-field.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/lambertian-sphere-motion-field.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/lambertian-sphere-optical-flow.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/lambertian-sphere-optical-flow.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/lambertian-sphere-optical-flow.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/stationary-lambertian-sphere.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/stationary-lambertian-sphere.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/stationary-lambertian-sphere.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/stationary-lambertian-sphere-motion-field.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/stationary-lambertian-sphere-motion-field.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/stationary-lambertian-sphere-motion-field.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/stationary-lambertian-sphere-optical-flow.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/stationary-lambertian-sphere-optical-flow.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/stationary-lambertian-sphere-optical-flow.png
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/ill-posed.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/ill-posed.png
+INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/grf/ill-posed.png
 INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/draft.bbl
 INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/draft.bbl
 INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/draft.aux
 INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/draft.out
 INPUT /Users/jacobrafati/Desktop/Computer Vision/project/Report/draft.out
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
